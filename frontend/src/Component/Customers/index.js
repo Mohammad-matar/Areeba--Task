@@ -74,10 +74,10 @@ export default function Customers() {
     axios
       .put(`http://localhost:3000/customers/${newcustomer.id}`, newcustomer)
       .then((res) => {
-        console.log(res)
         handleClose();
         setnewCustomer({});
         getCustomers();
+        alert("Customer updated successfully");
       })
       .catch((err) => console.log(err));
   };
@@ -134,12 +134,17 @@ export default function Customers() {
                               <Typography id="modal-modal-title" variant="h6" component="h2">
                                 Edit your Customer
                               </Typography>
-                              <legend >Name: <input placeholder="name" name="name" defaultValue={newcustomer.name} onChange={handleChange}></input></legend>
                               <br />
-                              <legend>Address: <input placeholder="address" name="address" defaultValue={newcustomer.address} onChange={handleChange}></input></legend>
+                              <TextField id="filled-basic" label="Name" name="name" variant="filled" defaultValue={newcustomer.name} onChange={handleChange} />
                               <br />
-                              <legend> Phone Number: <input placeholder="phone_number" name="phone_number" defaultValue={newcustomer.phone_number} onChange={handleChange}></input></legend>
-                              <button onClick={addNewCustomer}> Update Data </button>
+                              <br />
+                              <TextField id="filled-basic" label="address" name="address" variant="filled" defaultValue={newcustomer.address} onChange={handleChange} />
+                              <br />
+                              <br />
+                              <TextField id="filled-basic" label="Phone Number" name="phone_number" variant="filled" defaultValue={newcustomer.phone_number} onChange={handleChange} />
+                              <br />
+                              <br />
+                              <Button variant="contained" onClick={addNewCustomer} >Update Data</Button>
                             </Box>
                           </Modal>
                         </Stack>
