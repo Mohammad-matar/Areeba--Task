@@ -160,8 +160,8 @@ Sample **body**:
 
 ```json
 {
-  "success": false,
-  "message": "phone number is invalid"
+    "success": false,
+    "message": "phone number is invalid"
 }
 ```
 
