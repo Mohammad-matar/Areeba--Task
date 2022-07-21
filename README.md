@@ -12,7 +12,7 @@ The API that I used was : Abstract, implementing react and material-UI for the F
 
 To pull this project : "https://github.com/Mohammad-matar/Areeba--Task"
 
-![Areeba ](src/image/areeba.png)
+![Areeba ](./frontend/src/images/areeba.png)
 
 ## How to Run the app
 
