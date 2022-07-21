@@ -10,7 +10,7 @@ The API that I used was : Abstract, implementing react and material-UI for the F
 
 ## Pull The Project
 
-To pull this project : "https://github.com/Mohammad-matar/Areeba-Task.git"
+To pull this project : "https://github.com/Mohammad-matar/Areeba--Task"
 
 ![Areeba ](src/image/areeba.png)
 
