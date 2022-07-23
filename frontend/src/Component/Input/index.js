@@ -67,7 +67,7 @@ export default function Input() {
                     />
                 </Box>
                 <Stack spacing={2} direction="row" justifyContent="center">
-                    <Button variant="contained" onClick={addCustomer}>
+                    <Button variant="contained" onClick={addCustomer} name="btn1">
                         Submit
                     </Button>
                 </Stack>

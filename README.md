@@ -213,5 +213,19 @@ No body required. Customer id will come from the URL.
   }
 }
 ```
+### Automated Testing
+
+To install the all packages in automation folder:
+
+```cli
+npm install
+```
+
+To run the Test run:
+
+```cli
+node AddUser.js
+```
+
 
 Enjoy Testing :heart:
